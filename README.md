@@ -29,5 +29,5 @@ Despues ambos procesos los llamamos con a función *Force* para poder ejecutarla
 `  printfn "%d" z; `\
    `  printfn "%d" y; `
    
-Para evitar el error de la división entre cero podriamos simplemente no llamar a la instrucción comentando la linea que guarda *y* el valor. \
+Para evitar el error de la división entre cero podriamos simplemente no llamar a la instrucción comentando la linea que guarda en la variable *y*. \
 `  let y = x.Force(); `
