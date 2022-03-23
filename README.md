@@ -3,7 +3,7 @@ Código de ejemplo de la presentación del tema de Evaluación perezosa de la cl
 
 ## Código 
 
-  open System
+  'open System
   [<EntryPoint>]
   let main argv =
   let x = lazy(1/0);
@@ -12,6 +12,6 @@ Código de ejemplo de la presentación del tema de Evaluación perezosa de la cl
   let y = x.Force();
   printfn "%d" z;
   printfn "%d" y;
-  0
+  0'
 
 ###Descripción 
